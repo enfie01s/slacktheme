@@ -66,7 +66,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: #e6e6e6; }
 
-.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: #222 !important; }
+.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: #12abed !important; }
 
 .p-channel_sidebar__header { color: #e6e6e6 !important; }
 
@@ -74,7 +74,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar__channel--im .c-presence--away { color: #949494; }
 
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #545454 !important; }
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #72CDF4 !important; }
 
 .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #545454 !important; }
 
@@ -782,7 +782,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .channel_header_info button { color: #949494; }
 
-.channel_header_icon { color: #e6e6e6; }
+.channel_header_icon { color: #FDBB31; }
 
 .channel_calls_button .call_icon.call_window_offline { color: #949494; }
 
@@ -814,9 +814,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_list__day_divider__label { color: #949494; }
 
-.c-message_list__day_divider__label__pill { background: #222; position: relative; }
+.c-message_list__day_divider__label__pill { background: #C2CD23; position: relative; }
 
-.c-message_list__day_divider__line { border-top-color: #363636; }
+.c-message_list__day_divider__line { border-top-color: #C2CD23; }
 
 .day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
 
@@ -2371,7 +2371,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #client-ui .searchable_member_list .team_list_item:hover { background: #545454; }
 
-.c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #e6e6e6 !important; }
+.c-unified_member__display-name, .c-unified_member__display-name--small, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #e6e6e6 !important; }
 
 #convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #e6e6e6; }
 
