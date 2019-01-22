@@ -410,7 +410,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .inline_message_input_container .ql-container.focus, .inline_message_input_container .ql-container:active, .inline_message_input_container .ql-container:hover { border-color: #828282; }
 
-.c-message--editing, .ql-editor p { background: #363636; border-color: #363636; color: #e6e6e6; }
+.c-message--editing { background: #363636; border-color: #363636; color: #e6e6e6; }
 
 .c-message__editor__input, .c-message__editor__input--legacy { background: #545454; border-color: #363636; color: #e6e6e6; }
 
@@ -1398,6 +1398,8 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 .p-message_pane__foreword__description, .p-message_pane__limited_history_alert { color: #e6e6e6; }
 
 .p-message_pane__limited_history_foreword { background: #363636; background-image: none; color: #e6e6e6; }
+
+.p-threads_footer__input .p-message_input_field { background: #363636; color: #e6e6e6; }
 
 .p-message_pane__unread_banner__banner { background: #545454; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 
