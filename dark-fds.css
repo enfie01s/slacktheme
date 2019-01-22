@@ -70,15 +70,15 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar__header { color: #e6e6e6 !important; }
 
-.p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence, .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--selected::before { color: #e6e6e6; }
+.p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence, .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--selected::before { color: #0b678e; }
 
 .p-channel_sidebar__channel--im .c-presence--away { color: #949494; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #72CDF4 !important; }
 
-.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #545454 !important; }
+.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #12abed !important; }
 
-.p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #e6e6e6; }
+.p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #0b678e; }
 
 .p-channel_sidebar__link--selected::before, .p-channel_sidebar__link--selected::after { color: #e6e6e6; }
 
@@ -784,7 +784,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .channel_header_icon { color: #FDBB31; }
 
-.channel_calls_button .call_icon.call_window_offline { color: #ca8b02; }
+.channel_calls_button .call_icon.call_window_offline { color: #7e5701; }
 
 .channel_actions_toggle.active:focus, .details_toggle.active:focus { color: #e6e6e6; }
 
@@ -817,6 +817,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .c-message_list__day_divider__label__pill { background: #C2CD23; position: relative; }
 
 .c-message_list__day_divider__line { border-top-color: #C2CD23; }
+
+.c-virtual_list__sticky_container { background: #C2CD23; }
 
 .day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
 
