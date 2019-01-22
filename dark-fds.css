@@ -818,7 +818,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_list__day_divider__line { border-top-color: #C2CD23; }
 
-.c-virtual_list__sticky_container { background: #C2CD23; }
+.c-virtual_list__sticky_container { border-top: 3px solid #C2CD23; }
 
 .day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
 
